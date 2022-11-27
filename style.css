@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+.conteudo{
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+section{
+    padding-top: 4em;
+}
+
+.bg-green{
+    background-color: #7AE582;
+}
+
+.card-icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(197, 197, 197);
+}
+
+.card{
+    border-radius: 0%;
+    height: 19rem;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
+}
+
+.card:hover{
+    height: 19.3rem;
+    transition: .2s;
+}
