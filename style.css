@@ -26,7 +26,7 @@ section{
 
 .card{
     border-radius: 0%;
-    height: 19rem;
+    min-height: 19rem;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
 }
 
