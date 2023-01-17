@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.4rem;
+}
+
+body {
+    background-color: rgb(245, 254, 255);
+    color: rgba(33, 37, 41, .9);
+    font-size: 95%;
+    overflow-x: hidden;
+}
+
+p{
+    margin-top: 1.3rem;
+}
+
+canvas{
+    max-height: 100vh;
+    position: absolute;
+    z-index: 0  ;
+    background-image: linear-gradient(To right, #223240, 40%, #60BF81);
+    opacity: 0.7;
+}
+
+#Topo{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#Topo .content{
+    position: absolute;
+    z-index: 10;
+}
+
+.container{
+    margin: 0 8%;
+}
+
+.bg--dark{
+    background-color: black;
+}
+
+.bg--light{
+    background-color: white;
+}
+
+.fw--bold{
+    font-weight: bold;
+}
+
+.fw--bolder{
+    font-weight: bolder;
+}
+
+.fw--ligthc{
+    font-weight: light;
+    opacity: .35;
+}
+
+.fw--normal{
+    font-weight: normal;
+}
+
+.fst--italic {
+    font-style: italic;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+}
+
+.text--center{
+    text-align: center;
+}
+
+.text--start{
+    text-align: start;
+}
+
+.text--light{
+    font-size: 100%; 
+    color: rgb(255, 255, 255);
+}
+
+.text--underline{
+    text-decoration: underline;
+}
+
+.text--decoration--none{
+    text-decoration: none;
+}
+
+.text--red{
+    color: rgb(250, 85, 85);
+}
+
+.mb--5{
+    margin-bottom: 5%;   
+}
+
+.pt--5{
+    padding-top: 5%;   
+}
+
+.pb--5{
+    padding-bottom: 5%;   
+}

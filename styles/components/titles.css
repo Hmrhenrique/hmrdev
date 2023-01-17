@@ -1,0 +1,18 @@
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+    opacity: .9;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+

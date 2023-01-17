@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 10;
+    top: 100px;
+    width: 100vw;
+    margin-top: 7%;
+}
+
+.nav__title{
+    opacity: 0;
+    font-size: 2em;
+    font-weight: 300;
+    color: #60BF81;
+}
+
+.nav__link{
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 550;
+    margin-left: 1em;
+}
+
+.nav__link:hover{
+    color: #60BF81;
+}

@@ -1,0 +1,46 @@
+.cardContainer{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+
+.card:hover {
+    transform: translateX(1%);
+}
+
+
+@keyframes card-slide {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    60%{
+        transform: translateX(10%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.card__icon{
+    background-color: rgb(220, 53, 69);
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.card__title{
+    font-size: 1.7rem;
+}
+
+.card__text{
+    font-weight: bolder;
+    font-size: 95%;
+}
+
+
+
+
